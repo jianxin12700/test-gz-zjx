@@ -1,0 +1,6 @@
+2020-02-14 20:07:11,689 INFO [api_employee.py(ApiEmployee:14)] - 新增员工url: http://182.92.81.159/api/sys/user
+2020-02-14 20:07:11,690 INFO [api_employee.py(ApiEmployee:15)] - 删除、更新、查询公共url模板：http://182.92.81.159/api/sys/user/
+2020-02-14 20:07:11,988 INFO [api_employee.py(api_post_employee:27)] - 新增员工数据：{'username': 'gz-day-v012', 'mobile': '13575400100', 'workNumber': '14159627'} 新增员工请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer fa334b4d-fef6-4d90-bce0-36acb9af486b'}
+2020-02-14 20:07:12,244 INFO [api_employee.py(api_put_employee:35)] - 修改员工url：http://182.92.81.159/api/sys/user/1228289578166996992 修改员工数据：{'username': 'gz6q-v02-r12'} 请求header:{'Content-Type': 'application/json', 'Authorization': 'Bearer fa334b4d-fef6-4d90-bce0-36acb9af486b'}
+2020-02-14 20:07:12,503 INFO [api_employee.py(api_get_employee:41)] - 查询员工url:http://182.92.81.159/api/sys/user/1228289578166996992 请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer fa334b4d-fef6-4d90-bce0-36acb9af486b'}
+2020-02-14 20:07:12,741 INFO [api_employee.py(api_del_employee:48)] - 删除员工url : http://182.92.81.159/api/sys/user/1228289578166996992 删除员工请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer fa334b4d-fef6-4d90-bce0-36acb9af486b'}
